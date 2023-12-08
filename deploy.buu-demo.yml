@@ -97,19 +97,19 @@ groups:
                     de.buu-demo.cloud.spryker.toys:
                         store: DE
                         <<: *frontend-auth
-            backoffice:
+            boffice:
                 application: backoffice
                 endpoints:
                     backoffice.de.buu-demo.cloud.spryker.toys:
                         store: DE
                         primal: true
-            backend_gateway:
+            backgw:
                 application: backend-gateway
                 endpoints:
                     backend-gateway.de.buu-demo.cloud.spryker.toys:
                         store: DE
                         primal: true
-            backend_api:
+            backapi:
                 application: zed
                 endpoints:
                     backend-api.de.buu-demo.cloud.spryker.toys:
